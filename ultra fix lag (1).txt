@@ -7303,49 +7303,6 @@ spawn(function()
     end
 end)
 
-local ToggleKillPlayerTrial = Tabs.Race:AddToggle("ToggleKillPlayerTrial", {Title = "Auto Kill Player[Beta]",Description = "Kill Người Chơi Sau Khi Trial", Default = false })
-ToggleKillPlayerTrial:OnChanged(function(Value)
-    _G.KillAfterTrials = value
-end)
-Options.ToggleKillPlayerTrial:SetValue(false)
-spawn(function()
-    while wait() do 
-        pcall(function()
-            if KillPlayerSpam then
-                repeat wait()
-                    targettrial()
-                    if _G.TargTrial ~= nil and _G.TargTrial.Character.Humanoid.Health < 0 then
-                        _G.TargTrial = nil
-                        targettrial()
-                    end
-                    if _G.TargTrial ~= nil then
-                        topos(_G.TargTrial.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,5))
-                        AutoHaki()
-                        EquipWeapon(_G.SelectWeapon)
-                        Click()
-                    end
-                    wait(2)
-                    if _G.SpamSkillZ then
-                        game:GetService("VirtualInputManager"):SendKeyEvent(true,122,false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                        game:GetService("VirtualInputManager"):SendKeyEvent(false,122,false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                    end
-                    wait(.2)
-                    if _G.SpamSkillX then
-                        game:GetService("VirtualInputManager"):SendKeyEvent(true,120,false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                        game:GetService("VirtualInputManager"):SendKeyEvent(false,120,false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                    end
-                    wait(.2)
-                    if _G.SpamSkillC then
-                        game:GetService("VirtualInputManager"):SendKeyEvent(true,99,false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                        game:GetService("VirtualInputManager"):SendKeyEvent(false,99,false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                        wait(.2)
-                        game:GetService("VirtualInputManager"):SendKeyEvent(false,"C",false,game.Players.LocalPlayer.Character.HumanoidRootPart)
-                    end
-                until not KillPlayerSpam or not v.Parent or v.Humanoid.Health <= 0 
-            end
-        end)
-    end
-end)
 
 local ToggleAutoSoulGuitar = Tabs.Race:AddToggle("ToggleAutoSoulGuitar", {Title = "Auto Lấy Soulguitar",Description = "[New Upd]", Default = false })
 ToggleAutoSoulGuitar:OnChanged(function(Value)
