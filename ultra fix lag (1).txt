@@ -7276,32 +7276,7 @@ while wait() do
 end
 end)
 
-local ToggleKillPlayerTrial = Tabs.Race:AddToggle("ToggleKillPlayerTrial", {Title = "Auto Kill Player[Old]",Description = "Kill Player Skill", Default = false })
-ToggleKillPlayerTrial:OnChanged(function(Value)
-    _G.KillAfterTrials = value
-end)
-Options.ToggleKillPlayerTrial:SetValue(false)
-spawn(function()
-    while wait() do 
-        pcall(function()
-            if KillPlayer then
-                repeat wait()
-                    targettrial()
-                    if _G.TargTrial ~= nil and _G.TargTrial.Character.Humanoid.Health < 0 then
-                        _G.TargTrial = nil
-                        targettrial()
-                    end
-                    if _G.TargTrial ~= nil then
-                        topos(_G.TargTrial.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,5))
-                        AutoHaki()
-                        EquipWeapon(_G.SelectWeapon)
-                        Click()
-                    end
-                until not KillPlayer or not v.Parent or v.Humanoid.Health <= 0 
-            end
-        end)
-    end
-end)
+
 
 
 local ToggleAutoSoulGuitar = Tabs.Race:AddToggle("ToggleAutoSoulGuitar", {Title = "Auto Lấy Soulguitar",Description = "[New Upd]", Default = false })
