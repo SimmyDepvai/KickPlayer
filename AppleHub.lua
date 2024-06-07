@@ -2,15 +2,15 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 _G.Primary = Color3.fromRGB(0, 45, 255)
 _G.Dark = Color3.fromRGB(46, 56, 56)
 ----------------------------------------------------------------------------------------------------------------------------------------
-_G.TieuDe = "Z-AZURE HUB "
-_G.ThongBao = "Z-AZURE HUB"
-_G.ThongBaoChoose = "BLOX FRUIT"
+_G.TieuDe = "Z-azure Hub"
+_G.ThongBao = "Z-azure Hub"
+_G.ThongBaoChoose = "Cracj Blox Fruits Script"
 
-_G.Discord = "https://discord.gg/rVfwkkJre7"
-_G.YouTube = "https://www.youtube.com/channel/UCE0eEWtr0WT8cih91VJcneg"
-_G.TikTok = "https://www.tiktok.com/@qhuyyeuopiece"
+_G.Discord = "https://discord.gg/alchemyhub"
+_G.YouTube = "https://www.youtube.com/@Alchemy-Hub"
+_G.TikTok = "https://discord.gg/alchemyhub"
 notis = require(game.ReplicatedStorage:WaitForChild("Notification"))
-notis.new("<Color=Red>Hi Lô Ní !!! \n<Color=/>".. _G.ThongBao):Display()
+notis.new("<Color=Yellow>Attacked!\nLoading....<Color=/>".. _G.ThongBao):Display()
 _G.SafeFarm = true
 assert(getrawmetatable)
     grm = getrawmetatable(game)
@@ -133,10 +133,10 @@ for _, player in ipairs(Players:GetPlayers()) do
     end
 end
 print("Anti Cheat Bypass Active")
-print("Made By: Ngo Q Quoc Huy")
-warn("I Love U:333")
-warn("Thanks For Use!!")
-print("Cho Xin 1 Ý Kiến Nhá Bé Yêu:333")
+print("Made By: Nguyen Minh Tien")
+warn("Định Deobf À Bé Yêu?")
+warn("Deobf Làm Gì:3")
+print("Anh Yêu Bé Mà Cứ Dms Xin Là Anh Cho:33")
 repeat wait() until game:IsLoaded()
 if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam")  then
 		repeat wait()
@@ -289,7 +289,7 @@ ttittles.BackgroundTransparency = 1
 ttittles.Position = UDim2.new(0,30,0.05,0)
 ttittles.Size = UDim2.new(0, 255, 0.05, 25)
 ttittles.Font = Enum.Font.SourceSansBold
-ttittles.Text = "Z-AZURE HUB"
+ttittles.Text = "Z-azure Hub"
 ttittles.TextSize = 15.000
 ttittles.TextColor3 = Color3.fromRGB(255,255,255)
 ttittles.TextXAlignment = Enum.TextXAlignment.Left
@@ -354,7 +354,7 @@ local Logo = Instance.new("ImageLabel")
 	Logo.BackgroundTransparency = 1
 	Logo.Position = UDim2.new(0, 10, 0, 10)
 	Logo.Size = UDim2.new(0, 120, 0, 120)
-	Logo.Image = "rbxassetid://17004189267"]]--
+	Logo.Image = "rbxassetid://13797406183"]]--
 local Tab = Instance.new("Frame")
 Tab.Name = "Tab"
 Tab.Parent = Main
@@ -905,7 +905,7 @@ ImageButton.BackgroundTransparency = 1.000
 ImageButton.Position = UDim2.new(0, 357, 0, 3)
 ImageButton.Size = UDim2.new(0, 25, 0, 25)
 ImageButton.ZIndex = 2
-ImageButton.Image = "rbxassetid://17004189267"
+ImageButton.Image = "rbxassetid://3926311105"
 ImageButton.ImageColor3 = Color3.fromRGB(60,60,255)
 ImageButton.ImageRectOffset = Vector2.new(940, 784)
 ImageButton.ImageRectSize = Vector2.new(48, 48)
@@ -993,7 +993,7 @@ local TogglePadding = Instance.new("UIPadding")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 8)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://17004189267" 
+				imgLabelIcon.Image = "rbxassetid://10709761889" 
 
 Title.Parent = Button
 Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -1118,7 +1118,7 @@ local imgLabelIcon = Instance.new("ImageLabel")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 3)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://17004189267" 
+				imgLabelIcon.Image = "rbxassetid://10709761889" 
 
 DropTitle.Name = "DropTitle"
 DropTitle.Parent = Dropdown
@@ -1383,7 +1383,7 @@ end
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://17004189267"
+                ImageLabel.Image = "rbxassetid://10709761889"
                 
                 
                 
@@ -1709,7 +1709,7 @@ sliderrcorner.Parent = sliderr
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://17004189267"
+                ImageLabel.Image = "rbxassetid://10709761889"
                 
                 
                 
@@ -2305,7 +2305,7 @@ if game.PlaceId == 2753915549 then
     elseif game.PlaceId == 7449423635 then
         World3 = true
     else
-    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://17004189267", {
+    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://10709761889", {
     Duration = 10,       
     Main = {
         Rounding = true,
@@ -4438,9 +4438,9 @@ end)
         game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
 --------------------------------------------------------------------------------------------------------
-local Library = Update:Window("Z-AZURE HUB","BLOX FRUIT",Enum.KeyCode.RightControl);
+local Library = Update:Window("Z-azure Hub","BLOX FRUIT",Enum.KeyCode.RightControl);
 --------------------------------------------------------------------------------------------------------
-local TienTiny = Library:AddTab("Information","rbxassetid://10723415903")
+local TienTiny = Library:AddTab("Information👾","rbxassetid://10723415903")
 local Settings = Library:AddTab("Settings Farming","rbxassetid://10734950309")
 local Main = Library:AddTab("General","rbxassetid://10723407389")
 local M = Library:AddTab("Item & Quest","rbxassetid://10734975692")
@@ -4456,22 +4456,22 @@ local S = Library:AddTab("Shop","rbxassetid://10734952479")
 local D = Library:AddTab("Devil Fruit","rbxassetid://10709761889")
 local Misc = Library:AddTab("Miscellaneous","rbxassetid://10709782582")
 --------------------------------------------------------------------------------------------------------
-TienTiny:AddSeperator("Z-AZURE HUB")
+TienTiny:AddSeperator("Tên HUB")
 TienTiny:UserMinhTien()
-local Creator = TienTiny:AddLabel('Hii '..game.Players.LocalPlayer.Name.." To Z-AZURE HUB !! Thanks Using.")
+local Creator = TienTiny:AddLabel('Hii '..game.Players.LocalPlayer.Name.." To Tên HUB !! Thanks Using.")
 
 spawn(function()
     while wait() do
         pcall(function()
-            if game.Players.LocalPlayer.Name == "Ngo Q Quoc Huy" then
+            if game.Players.LocalPlayer.Name == "NguyenMinhTienTiny" then
             Creator:Set("Hii Developer Welcome Back!")
             end
         end)
     end
 end)
 
-TienTiny:AddSeperator("🧑‍💻 Developer 🧑‍💻 ")
-TienTiny:AddLabel("Owner: Ngo Q Quoc Huy (Huy Noob)")
+TienTiny:AddSeperator("🧑‍💻 Developer 🧑‍💻")
+TienTiny:AddLabel("Owner: Nguyen Minh Tien (Tien Tiny)")
 TienTiny:AddSeperator("Social Network")
 TienTiny:AddButton('Discord Sever', function()
 setclipboard(_G.Discord)
@@ -8873,7 +8873,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "Z-azure Hub", 
+					Title = "Apple Hab", 
 					Text = "Full Moon" ,
 					Icon = "http://www.roblox.com/asset/?id=10709761889",
 					Duration = 2.5
@@ -8881,7 +8881,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "Z-azure Hub", 
+					Title = "Tên HUB", 
 					Text = "Wait New Server" ,
 					Icon = "http://www.roblox.com/asset/?id=10709761889",
 					Duration = 2.5
@@ -8889,7 +8889,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "Z-AZURE HUB", 
+					Title = "Tên HUB", 
 					Text = "Wait New Server" ,
 					Icon = "http://www.roblox.com/asset/?id=10709761889",
 					Duration = 2.5
@@ -8897,7 +8897,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "Z-AZURE HUB", 
+					Title = "Tên HUB", 
 					Text = "Wait New Server" ,
 					Icon = "http://www.roblox.com/asset/?id=10709761889",
 					Duration = 2.5
@@ -13069,7 +13069,7 @@ local plr = game:GetService("Players").LocalPlayer
             return v130;
         end;
         
-        Notification.new("<Color=Yellow>Z-azure Gửi Tặng®️<Color=/>"):Display()
+        Notification.new("<Color=Yellow>QUEST COMPLETED!<Color=/>"):Display()
         Notification.new("Earned <Color=Yellow>9,999,999,999,999 Exp.<Color=/> (+ None)"):Display()
         Notification.new("Earned <Color=Green>$9,999,999,999,999<Color=/>"):Display()
         plr.Data.Exp.Value = 999999999999
@@ -17356,7 +17356,7 @@ spawn(function()
         end
     end)
     end)
-FakeDamage("Kho Báu Của Bà Trương Mỹ Lan")
+FakeDamage(" TÊN HUB")
 ----------------------------------------------------------------------------------------------------------------------------------------
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
@@ -17373,24 +17373,24 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=17004189267"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=15850924286"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 UICorner.Parent = ImageButton1
-UIStroke.Color = Color3.fromRGB(135, 202, 244)
+UIStroke.Color = Color3.fromRGB(252, 3, 161)
 UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 ----------------------------------------------------------------------------------------------------------------------------------------
-Notification.Notify("Notification", "Thank You for Using Z-AZURE HUB.", "rbxassetid://17004189267", {
+Notification.Notify("Notification", "Thank You for Using Tên HUB.", "rbxassetid://10709761889", {
     Duration = 5,       
     Main = {
         Rounding = true,
     }
     });
 wait(6)
-Notification.Notify("Notification", "If You Use Delta, Z-AZURE HUB Will Optimize Delta Well.", "rbxassetid://17004189267", {
+Notification.Notify("Notification", "If You Use Fluxus, TÊn HUB Will Optimize Fluxus Well.", "rbxassetid://10709761889", {
     Duration = 10,       
     Main = {
         Rounding = true,
