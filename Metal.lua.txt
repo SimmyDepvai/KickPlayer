@@ -1,4 +1,4 @@
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/FixedFluent.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/SimmyDepvai/KickPlayer/main/!SNT_Ui.txt"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 if game.PlaceId == 2753915549 then
@@ -2189,29 +2189,28 @@ function getAllBladeHitsPlayers(Sizes)
 end
 
     local Window = Fluent:CreateWindow({
-    Title = "Z-azure Hub" ,
-    SubTitle = "Version Beta[Free]",
+    Title = "Metal Hub" ,
+    SubTitle = "By Mikee",
     TabWidth = 120,
     Size = UDim2.fromOffset(480, 320),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Rose",
+    Theme = "Winterhub",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
-	About = Window: AddTab({ Title = " Tab Profile", Icon = "user" }),
-	Sh = Window:AddTab({ Title = "Shop More", Icon = "shopping-cart" }),
-	Settings = Window:AddTab({ Title = "Tab Setting", Icon = "settings" }),
-    Main = Window:AddTab({ Title = "Tab Main", Icon = "home" }),
-    Ms = Window:AddTab({ Title = "Tab Misc", Icon = "align-vertical-distribute-center" }),    
-    Mt = Window:AddTab({ Title = "Tab Material & Boss", Icon = "air-vent" }),    
-    De = Window:AddTab({ Title = "Tab Fruit & Raid", Icon = "apple" }),    
-    St = Window:AddTab({ Title = "Tab Status", Icon = "activity" }),    
-    Lc = Window:AddTab({ Title = "Tab Local Player", Icon = "baby" }),   
-    RC = Window:AddTab({ Title = "Tab Race V4", Icon = "chevrons-right" }),   
-    Se = Window:AddTab({ Title = "Tab Sea Event", Icon = "waves" }),   
-    Qs = Window:AddTab({ Title = "Tab Item", Icon = "arrow-up-down" }),  
+	About = Window: AddTab({ Title = "• Onwer", Icon = "code-2" }),
+    Main = Window:AddTab({ Title = "• General", Icon = "home" }),
+	Qs = Window:AddTab({ Title = "• Item", Icon = "arrow-up-down" }), 
+    Settings = Window:AddTab({ Title = "• Setting", Icon = "settings" }),
+    RC = Window:AddTab({ Title = "• Race V4", Icon = "chevrons-right" }),   
+    Se = Window:AddTab({ Title = "• Sea Event", Icon = "waves" }),   
+    Sh = Window:AddTab({ Title = "• Shop", Icon = "shopping-cart" }),
+    Mt = Window:AddTab({ Title = "• Material & Boss", Icon = "air-vent" }),       
+    De = Window:AddTab({ Title = "• Fruit & Raid", Icon = "banana" }),        
+    Lc = Window:AddTab({ Title = "• Local Player", Icon = "baby" }),    
+    St = Window:AddTab({ Title = "• Status", Icon = "activity" }),    
 }
 
 local Options = Fluent.Options
@@ -2219,24 +2218,18 @@ local Options = Fluent.Options
 do
 
 Tabs.About:AddParagraph({
-        Title = "6/1 On Top",
-        Content = "Tao Mới Lớp 6 Thôi!!!"
-    })
-
-
-Tabs.About:AddParagraph({
         Title = "Owner",
-        Content = "HuyDepZaiii"
+        Content = "Mikee & HuySimp"
     })
 
   Tabs.About:AddParagraph({
         Title = "Version",
-        Content = "Beta Hub"
+        Content = "1.0"
     })
     
     Fluent:Notify({
-        Title = "Z-azure Hub",
-        Content = "The Scripts Is Work!!!",
+        Title = "Metal Hub",
+        Content = "Loading",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
@@ -2400,7 +2393,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardRewa
     
     Tabs.Sh:AddButton({
         Title = "Buy Sky Jumb",
-        Description = " Nhảy Cao ",
+        Description = "",
         Callback = function()            
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Geppo")
         end
@@ -2408,7 +2401,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Gepp
     
     Tabs.Sh:AddButton({
         Title = "Buy Buso Haki",
-        Description = "Tốc Biến",
+        Description = "",
         Callback = function()            
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso")
         end
@@ -2416,7 +2409,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso
     
     Tabs.Sh:AddButton({
         Title = "Buy Observation haki",
-        Description = "Quan Sát",
+        Description = "",
         Callback = function()            
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("KenTalk","Buy")
         end
@@ -2434,7 +2427,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Soru
     
     Tabs.Sh:AddButton({
         Title = "Buy ghoul race",
-        Description = "tộc Qủy",
+        Description = "",
         Callback = function()            
 local args = {[1] = "Ectoplasm", [2] = "BuyCheck", [3] = 4}
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
@@ -2445,7 +2438,7 @@ local args = {[1] = "Ectoplasm", [2] = "BuyCheck", [3] = 4}
     
     Tabs.Sh:AddButton({
         Title = "Buy Cyborg race",
-        Description = "Tộc Cyborg",
+        Description = "",
         Callback = function()            
 local args = {[1] = "CyborgTrainer", [2] = "Buy"}
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
@@ -2454,7 +2447,7 @@ local args = {[1] = "CyborgTrainer", [2] = "Buy"}
     
     Tabs.Sh:AddButton({
         Title = "Reroll Race",
-        Description = "Đổi Tộc",
+        Description = "",
         Callback = function()            
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","1")
 	    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","2")
@@ -2463,7 +2456,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardRewa
     
     Tabs.Sh:AddButton({
         Title = "Refund Stats",
-        Description = "Reset chỉ số",
+        Description = "",
         Callback = function()            
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","2")
@@ -2524,7 +2517,7 @@ task.spawn(function()
     end)
     
     local Dropdown = Tabs.Settings:AddDropdown("Dropdown", {
-        Title = "Tác Động Vật Lí Nhanh!!!",
+        Title = "Fast Attack Speed",
         Values = {"0", "0.1", "0.15", "0.155", "0.16", "0.165", "0.17", "0.175", "0.18", "0.185"},
         Multi = false,
         Default = 1,
@@ -4220,28 +4213,6 @@ spawn(function()
 	end
 end)
 
-
---// auto chest
-Tabs.Ms:AddButton({
-    Title = "Auto Farm Bounty",
-    Description = "Tính Năng Prenium!!",
-    Callback = function()
-       _G.JoinTeam = "Pirate"
-       loadstring(game:HttpGet"https://raw.githubusercontent.com/HuyDepZaiii/SzureVipp/main/AutoBounTy.lua")()
-    end
-})
---// auto chest
-Tabs.Ms:AddButton({
-    Title = "Auto Farm Beli",
-    Description = "Auto Farm Beli [I Made]",
-    Callback = function()
-    _G.JoinTeam = "Pirate"
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyDepZaiii/SzureVipp/main/ChestFarm.lua"))()
-    end
-})
-
-
-
 local Toggle = Tabs.Ms:AddToggle("MyToggle", {Title = "Farm chest[Bypass]", Default = false })
 
     Toggle:OnChanged(function(Value)
@@ -4848,7 +4819,7 @@ end)
   "Spike-Spike",
   "Chop-Chop",
   "Spring-Spring",
-  "Rocket-Rocket",
+  "Kilo-Kilo",
   "Spin-Spin",
   "Bird: Falcon",
   "Smoke-Smoke",
@@ -4875,10 +4846,9 @@ end)
   "Venom-Venom",
   "Shadow-Shadow",
   "Control-Control",
-  "Spirit-Spirit",
+  "Soul-Soul",
   "Dragon-Dragon",
-  "Leopard-Leopard",
-  "Kitsune-Kitsune"
+  "Leopard-Leopard"
  }
     
     local Dropdown = Tabs.De:AddDropdown("Dropdown", {
@@ -5061,7 +5031,7 @@ local Toggle = Tabs.De:AddToggle("MyToggle", {Title = "Awakener Fruit", Default 
     end)
     
     local Time = Tabs.St:AddParagraph({
-        Title = "Thời Gian Vô",
+        Title = "Time Zone",
         Content = ""
     })
     
@@ -5239,7 +5209,7 @@ end)
     local Input = Tabs.St:AddInput("Input", {
         Title = "Job Id",
         Default = "",
-        Placeholder = "Dán Job Id",
+        Placeholder = "Paste Job Id",
         Numeric = false, -- Only allows numbers
         Finished = false, -- Only calls callback when you press enter
         Callback = function(Value)
@@ -5383,7 +5353,7 @@ end)
 	end
 	
     Tabs.Lc:AddButton({
-        Title = "Tăng FBS",
+        Title = "Boost FPS",
         Description = "",
         Callback = function()
             fpsboost()
@@ -6677,11 +6647,9 @@ end)
 	end
 end)
 
-      
-
     Tabs.Qs:AddSection("Quest")
     
-    local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Lấy Saber", Default = false })
+    local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Taken Saber", Default = false })
 
     Toggle:OnChanged(function(autosaberfunc)
         AutoSaber = autosaberfunc
@@ -6799,7 +6767,7 @@ end)
         end
     end)
 
-local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Lấy Yama", Default = false })
+local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Take Yama", Default = false })
 
     Toggle:OnChanged(function(Value)
         _G.AutoYama = Value
@@ -6818,7 +6786,7 @@ local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Lấy Yama", Default = fa
         end
     end)
     
-    local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Lấy Tushita", Default = false })
+    local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Take Tushiata", Default = false })
 
     Toggle:OnChanged(function(Value)
         _G.Autotushita = value
@@ -6860,7 +6828,7 @@ spawn(function()
         end
     end)
     
-    local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Auto CDK[Pro Vip]", Default = false })
+    local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Auto CDK[Beta]", Default = false })
 
     Toggle:OnChanged(function(Value)
         Auto_Cursed_Dual_Katana = Value
@@ -7599,57 +7567,6 @@ spawn(function()
         end
     end)
     end)
-local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Tween Kitsune[Pro Vip]", Default = false })
-
-    Toggle:OnChanged(function(Value)
-        AutoTweenKitsuneIsland = Value
-    StopTween(AutoTweenKitsuneIsland)
-        end)
-
-spawn(function()
-        local kitsuneIsland
-        while not kitsuneIsland do
-            kitsuneIsland = game:GetService("Workspace").Map:FindFirstChild("KitsuneIsland")
-            wait(1)
-        end
-        while wait() do
-            if _G.TweenToKitsune then
-                local shrineActive = kitsuneIsland:FindFirstChild("ShrineActive")
-                if shrineActive then
-                    for _, v in pairs(shrineActive:GetDescendants()) do
-                        if v:IsA("BasePart") and v.Name:find("NeonShrinePart") then
-                            Tween(v.CFrame)
-                        end
-                    end
-                end
-            end
-        end
-    end)
-
-
-local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Auto CollectAzure[Pro Vip]", Default = false })
-
-    Toggle:OnChanged(function(Value)
-        AutoCollectAzure = Value
-    StopTween(AutoCollectAzure)
-        end)
-
-spawn(function()
-    while wait() do
-        if _G.CollectAzure then
-            pcall(function()
-                if game:GetService("Workspace"):FindFirstChild("AttachedAzureEmber") then
-                    toTarget(game:GetService("Workspace"):WaitForChild("EmberTemplate"):FindFirstChild("Part").CFrame)
-					print("Azure")
-                end
-            end)
-        end
-    end
-end)
-
-
-
-
            
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
@@ -7665,7 +7582,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://16935216231"
+ImageButton1.Image = "rbxassetid://16375477666"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,"LeftControl",false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,"LeftControl",false,game)
