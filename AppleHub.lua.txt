@@ -481,7 +481,7 @@ local Title = Instance.new("TextLabel")
 TabButton.Parent = ScrollTab
 TabButton.Name = text.."Server"
 TabButton.Text = ""
-TabButton.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+TabButton.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
 TabButton.BackgroundTransparency = 1
 TabButton.Size = UDim2.new(0, 136, 0, 30)
 TabButton.Font = Enum.Font.SourceSansBold
@@ -792,7 +792,7 @@ UICorner.Parent = Button
 
 TextBtn.Name = "TextBtn"
 TextBtn.Parent = Button
-TextBtn.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+TextBtn.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
 TextBtn.BackgroundTransparency = .8
 TextBtn.Position = UDim2.new(0, 0, 0, 0)
 TextBtn.Size = UDim2.new(0, 379, 0, 33)
@@ -949,7 +949,7 @@ function main:AddToggle(text,config,callback)
 			config = config or false
 			local toggled = config
 _G.Color = Color3.fromRGB(0, 0, 0)	
-_G.TrueColor = Color3.fromRGB(255, 30, 50)
+_G.TrueColor = Color3.fromRGB(46, 56, 56)
 local UICorner = Instance.new("UICorner")
 local TogglePadding = Instance.new("UIPadding")
             local UIStroke = Instance.new("UIStroke")
@@ -965,7 +965,7 @@ local TogglePadding = Instance.new("UIPadding")
 
 			Button.Name = "Button"
 			Button.Parent = MainFramePage
-			Button.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+			Button.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
             Button.BackgroundTransparency = .8
 			Button.Size = UDim2.new(0, 379, 0, 46)
 			Button.AutoButtonColor = false
@@ -977,7 +977,7 @@ local TogglePadding = Instance.new("UIPadding")
             -- UIStroke.Name = "UIStroke"
 -- UIStroke.Parent = Circle and ToggleImage
 -- UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
--- UIStroke.Color = Color3.fromRGB(255, 30, 50)
+-- UIStroke.Color = Color3.fromRGB(46, 56, 56)
 -- UIStroke.LineJoinMode = Enum.LineJoinMode.Round
 -- UIStroke.Thickness = 1
 -- UIStroke.Transparency = 0
@@ -993,7 +993,7 @@ local TogglePadding = Instance.new("UIPadding")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 8)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://10747830462" 
+				imgLabelIcon.Image = "rbxassetid://17773682203" 
 
 Title.Parent = Button
 Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -1019,7 +1019,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
 
 			Circle.Name = "Circle"
 			Circle.Parent = ToggleImage
-			Circle.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+			Circle.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
             Circle.BackgroundTransparency = .7
 			Circle.Position = UDim2.new(0, 2, 0, 2)
 			Circle.Size = UDim2.new(0, 16, 0, 16)
@@ -1044,7 +1044,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(255, 30, 50)}
+						{BackgroundColor3 = Color3.fromRGB(46, 56, 56)}
 					):Play()
 				end
 				pcall(callback,toggled)
@@ -1093,7 +1093,7 @@ local UIStroke = Instance.new("UIStroke")
 
 Dropdown.Name = "Dropdown"
 Dropdown.Parent = MainFramePage
-Dropdown.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+Dropdown.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
 Dropdown.BackgroundTransparency = .8
 Dropdown.ClipsDescendants = true
 Dropdown.Size = UDim2.new(0, 379, 0, 38)
@@ -1118,11 +1118,11 @@ local imgLabelIcon = Instance.new("ImageLabel")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 3)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://10747830462" 
+				imgLabelIcon.Image = "rbxassetid://17773682203" 
 
 DropTitle.Name = "DropTitle"
 DropTitle.Parent = Dropdown
-DropTitle.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+DropTitle.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
 DropTitle.BackgroundTransparency = 1
 DropTitle.Size = UDim2.new(0, 379, 0, 38)
 DropTitle.Font = Enum.Font.SourceSansBold
@@ -1357,7 +1357,7 @@ end
             
                 SliderFrame_2.Name = "SliderFrame_2"
                 SliderFrame_2.Parent = SliderFrame
-                SliderFrame_2.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+                SliderFrame_2.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
                 SliderFrame_2.BackgroundTransparency = .8
                 SliderFrame_2.BorderSizePixel = 0
                 SliderFrame_2.Position = UDim2.new(0, 1, 0, 1)
@@ -1383,7 +1383,7 @@ end
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://10747830462"
+                ImageLabel.Image = "rbxassetid://17773682203"
                 
                 
                 
@@ -1693,7 +1693,7 @@ slidercorner.Parent = Slider
 
 sliderr.Name = "sliderr"
 sliderr.Parent = Slider
-sliderr.BackgroundColor3 = Color3.fromRGB(255, 30, 50)
+sliderr.BackgroundColor3 = Color3.fromRGB(46, 56, 56)
 sliderr.BackgroundTransparency = .8
 sliderr.Position = UDim2.new(0, 1, 0, 1)
 sliderr.Size = UDim2.new(0, 379, 0, 60)
@@ -1709,7 +1709,7 @@ sliderrcorner.Parent = sliderr
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://10747830462"
+                ImageLabel.Image = "rbxassetid://17773682203"
                 
                 
                 
@@ -2305,7 +2305,7 @@ if game.PlaceId == 2753915549 then
     elseif game.PlaceId == 7449423635 then
         World3 = true
     else
-    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://10747830462", {
+    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://17773682203", {
     Duration = 10,       
     Main = {
         Rounding = true,
@@ -4452,7 +4452,7 @@ local Visual = Library:AddTab("Visual","rbxassetid://10723374981")
 local R = Library:AddTab("Dungeon","rbxassetid://10709761722")
 local T = Library:AddTab("Teleport","rbxassetid://10734964188")
 local S = Library:AddTab("Shop","rbxassetid://10734952479")
-local D = Library:AddTab("Devil Fruit","rbxassetid://10747830462")
+local D = Library:AddTab("Devil Fruit","rbxassetid://17773682203")
 local Misc = Library:AddTab("Miscellaneous","rbxassetid://10709782582")
 --------------------------------------------------------------------------------------------------------
 Settings:AddSeperator("Settings Farming")
@@ -7048,7 +7048,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=10747830462",
+							Icon = "http://www.roblox.com/asset/?id=17773682203",
 							Duration = 2.5
 						})
 					end
@@ -7060,7 +7060,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=10747830462",
+							Icon = "http://www.roblox.com/asset/?id=17773682203",
 							Duration = 2.5
 						})
 					end
@@ -7072,7 +7072,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=10747830462",
+							Icon = "http://www.roblox.com/asset/?id=17773682203",
 							Duration = 2.5
 						})
 					end
@@ -7084,7 +7084,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=10747830462",
+							Icon = "http://www.roblox.com/asset/?id=17773682203",
 							Duration = 2.5
 						})
 					end
@@ -7094,7 +7094,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=10747830462",
+									Icon = "http://www.roblox.com/asset/?id=17773682203",
 									Duration = 2.5
 								})
 							else
@@ -7105,7 +7105,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=10747830462",
+							Icon = "http://www.roblox.com/asset/?id=17773682203",
 							Duration = 2.5
 						})
 					end
@@ -8847,7 +8847,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Apple Hab", 
 					Text = "Full Moon" ,
-					Icon = "http://www.roblox.com/asset/?id=10747830462",
+					Icon = "http://www.roblox.com/asset/?id=17773682203",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
@@ -8855,7 +8855,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Z-azure Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=10747830462",
+					Icon = "http://www.roblox.com/asset/?id=17773682203",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
@@ -8863,7 +8863,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Z-azure Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=10747830462",
+					Icon = "http://www.roblox.com/asset/?id=17773682203",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
@@ -8871,7 +8871,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Z-azure Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=10747830462",
+					Icon = "http://www.roblox.com/asset/?id=17773682203",
 					Duration = 2.5
 				})
             else
@@ -17355,14 +17355,14 @@ UIStroke.Color = Color3.fromRGB(0, 0, 0)
 UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 ----------------------------------------------------------------------------------------------------------------------------------------
-Notification.Notify("Notification", "Thank You for Using Z-azure Hub.", "rbxassetid://10747830462", {
+Notification.Notify("Notification", "Thank You for Using Z-azure Hub.", "rbxassetid://17773682203", {
     Duration = 5,       
     Main = {
         Rounding = true,
     }
     });
 wait(6)
-Notification.Notify("Notification", "If You Use Fluxus, Z-azure Hub Will Optimize Fluxus Well.", "rbxassetid://10747830462", {
+Notification.Notify("Notification", "If You Use Fluxus, Z-azure Hub Will Optimize Fluxus Well.", "rbxassetid://17773682203", {
     Duration = 10,       
     Main = {
         Rounding = true,
