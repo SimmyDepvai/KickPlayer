@@ -251,7 +251,7 @@ local BtnStroke = Instance.new("UIStroke")
  BtnStroke.Name = "BtnStroke"
              BtnStroke.Parent = Main
              BtnStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-             BtnStroke.Color = Color3.fromRGB(240, 10, 10)            BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
+             BtnStroke.Color = Color3.fromRGB(0, 0, 0)            BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
          BtnStroke.Thickness = 1
          BtnStroke.Transparency = 0
          BtnStroke.Enabled = true
@@ -386,7 +386,7 @@ zzR.CornerRadius = UDim.new(0,5)
 -- BtnStroke.Name = "BtnStroke"
 --             BtnStroke.Parent = Tab 
 --             BtnStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
---             BtnStroke.Color = Color3.fromRGB(240, 10, 10)         
+--             BtnStroke.Color = Color3.fromRGB(0, 0, 0)         
 --             BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
 --         BtnStroke.Thickness = 1
 --         BtnStroke.Transparency = 0
@@ -417,7 +417,7 @@ Page.BackgroundTransparency = 1.000
 BtnStroke.Name = "BtnStroke"
             BtnStroke.Parent = Page
             BtnStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-            BtnStroke.Color = Color3.fromRGB(240, 10, 10)            BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
+            BtnStroke.Color = Color3.fromRGB(0, 0, 0)            BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
         BtnStroke.Thickness = 1
         BtnStroke.Transparency = 0
         BtnStroke.Enabled = true
@@ -513,7 +513,7 @@ TUICorner.Parent = TabButton
 -- BtnStroke.Name = "BtnStroke"
 --             BtnStroke.Parent = TabButton
 --             BtnStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
---             BtnStroke.Color = Color3.fromRGB(240, 10, 10)            BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
+--             BtnStroke.Color = Color3.fromRGB(0, 0, 0)            BtnStroke.LineJoinMode = Enum.LineJoinMode.Round
 --         BtnStroke.Thickness = 1
 --         BtnStroke.Transparency = 0
 --         BtnStroke.Enabled = true
@@ -552,7 +552,7 @@ MainFramePage.ScrollBarThickness = 0
 -- local MStroke = Instance.new("UIStroke")
 --             MStroke.Parent = MainPage
 --             MStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
---             MStroke.Color = Color3.fromRGB(240, 10, 10)       
+--             MStroke.Color = Color3.fromRGB(0, 0, 0)       
 --             MStroke.LineJoinMode = Enum.LineJoinMode.Round
 --         MStroke.Thickness = 1
 --         MStroke.Transparency = 0
@@ -722,7 +722,7 @@ NotificationTitle.Size = UDim2.new(0, 400, 0, 25)
 NotificationTitle.ZIndex = 3
 NotificationTitle.Font = Enum.Font.SourceSansBold
 NotificationTitle.Text = "Notification"
-NotificationTitle.TextColor3 = Color3.fromRGB(240, 10, 10)
+NotificationTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
 NotificationTitle.TextSize = 22.000
 
 Line.Name = "Line"
@@ -948,7 +948,7 @@ end
 function main:AddToggle(text,config,callback)
 			config = config or false
 			local toggled = config
-_G.Color = Color3.fromRGB(240, 10, 10)	
+_G.Color = Color3.fromRGB(0, 0, 0)	
 _G.TrueColor = Color3.fromRGB(255, 30, 50)
 local UICorner = Instance.new("UICorner")
 local TogglePadding = Instance.new("UIPadding")
@@ -993,7 +993,7 @@ local TogglePadding = Instance.new("UIPadding")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 8)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://10709761889" 
+				imgLabelIcon.Image = "rbxassetid://10747830462" 
 
 Title.Parent = Button
 Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -1101,7 +1101,7 @@ Dropdown.Size = UDim2.new(0, 379, 0, 38)
 -- UIStroke.Name = "UIStroke"
 -- UIStroke.Parent = SelectItems
 -- UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
--- UIStroke.Color = Color3.fromRGB(240, 10, 10)
+-- UIStroke.Color = Color3.fromRGB(0, 0, 0)
 -- UIStroke.LineJoinMode = Enum.LineJoinMode.Round
 -- UIStroke.Thickness = 1
 -- UIStroke.Transparency = 0
@@ -1118,7 +1118,7 @@ local imgLabelIcon = Instance.new("ImageLabel")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 3)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://10709761889" 
+				imgLabelIcon.Image = "rbxassetid://10747830462" 
 
 DropTitle.Name = "DropTitle"
 DropTitle.Parent = Dropdown
@@ -1366,7 +1366,7 @@ end
                 -- UIStroke.Name = "UIStroke"
                 -- UIStroke.Parent = SliderFrame_2
                 -- UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                -- UIStroke.Color = Color3.fromRGB(240, 10, 10)      
+                -- UIStroke.Color = Color3.fromRGB(0, 0, 0)      
                 -- UIStroke.LineJoinMode = Enum.LineJoinMode.Round
                 -- UIStroke.Thickness = 1
                 -- UIStroke.Transparency = 0
@@ -1383,7 +1383,7 @@ end
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://10709761889"
+                ImageLabel.Image = "rbxassetid://10747830462"
                 
                 
                 
@@ -1428,7 +1428,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
                 Title_2.Name = "Title_2"
                 Title_2.Parent = SliderButton
                 Title_2.AnchorPoint = Vector2.new(0, 0)
-                Title_2.BackgroundColor3 = Color3.fromRGB(240, 10, 10)     
+                Title_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)     
                 Title_2.AutoButtonColor = false
                 Title_2.BackgroundTransparency = 1.000
                 Title_2.Position = UDim2.new(0,start,0,0)
@@ -1448,7 +1448,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
                 -- SliderStroke.Name = "SliderStroke"
                 -- SliderStroke.Parent = BoxFrame
                 -- SliderStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                -- SliderStroke.Color = Color3.fromRGB(240, 10, 10)          
+                -- SliderStroke.Color = Color3.fromRGB(0, 0, 0)          
                 -- SliderStroke.LineJoinMode = Enum.LineJoinMode.Round
                 -- SliderStroke.Thickness = 1
                 -- SliderStroke.Transparency = 0.5
@@ -1457,7 +1457,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
                 
                 BoxFrame.Name = "BoxFrame"
                 BoxFrame.Parent = SliderFrame_2
-                BoxFrame.BackgroundColor3 = Color3.fromRGB(240, 10, 10)   
+                BoxFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)   
                              BoxFrame.BackgroundTransparency = 1.000
                 BoxFrame.Size = UDim2.new(0, 50, 0, 15)
                 BoxFrame.Position = UDim2.new(0, 319, 0, 8)
@@ -1683,7 +1683,7 @@ local posto = Instance.new("UIStroke")
 
 Slider.Name = "Slider"
 Slider.Parent = MainFramePage
-Slider.BackgroundColor3 = Color3.fromRGB(240, 10, 10)
+Slider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Slider.BackgroundTransparency = 1
 Slider.Size = UDim2.new(0, 379, 0, 60)
 
@@ -1704,12 +1704,12 @@ sliderrcorner.Parent = sliderr
 
                 ImageLabel.Name = "ImageLabel"
                 ImageLabel.Parent = sliderr
-                ImageLabel.BackgroundColor3 = Color3.fromRGB(240, 10, 10)        
+                ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)        
                 ImageLabel.BackgroundTransparency = 1.000
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://10709761889"
+                ImageLabel.Image = "rbxassetid://10747830462"
                 
                 
                 
@@ -1765,7 +1765,7 @@ barcorner.Parent = bar
                 -- SliderStroke.Name = "SliderStroke"
                 -- SliderStroke.Parent = sliderr
                 -- SliderStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                -- SliderStroke.Color = Color3.fromRGB(240, 10, 10)          
+                -- SliderStroke.Color = Color3.fromRGB(0, 0, 0)          
                 -- SliderStroke.LineJoinMode = Enum.LineJoinMode.Round
                 -- SliderStroke.Thickness = 1
                 -- SliderStroke.Transparency = 0
@@ -1808,7 +1808,7 @@ TextBox.TextXAlignment = Enum.TextXAlignment.Center
 -- posto.Name = "posto"
 -- posto.Parent = TextBox
 -- posto.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
--- posto.Color = Color3.fromRGB(240, 10, 10)posto.LineJoinMode = Enum.LineJoinMode.Round
+-- posto.Color = Color3.fromRGB(0, 0, 0)posto.LineJoinMode = Enum.LineJoinMode.Round
 -- posto.Thickness = 1
 -- posto.Transparency = 0.6
 -- posto.Enabled = true
@@ -1906,7 +1906,7 @@ TextboxxCorner.Parent = Textboxx
 
 TextboxLabel.Name = "TextboxLabel"
 TextboxLabel.Parent = Textbox
-TextboxLabel.BackgroundColor3 = Color3.fromRGB(240, 10, 10)TextboxLabel.BackgroundTransparency = 1.000
+TextboxLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)TextboxLabel.BackgroundTransparency = 1.000
 TextboxLabel.Position = UDim2.new(0, 15, 0, 0)
 TextboxLabel.Text = text
 TextboxLabel.Size = UDim2.new(0, 145, 0, 31)
@@ -2035,7 +2035,7 @@ TextboxxCorner.Parent = Textboxx
 
 TextboxLabel.Name = "TextboxLabel"
 TextboxLabel.Parent = Textbox
-TextboxLabel.BackgroundColor3 = Color3.fromRGB(240, 10, 10)TextboxLabel.BackgroundTransparency = 1.000
+TextboxLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)TextboxLabel.BackgroundTransparency = 1.000
 TextboxLabel.Position = UDim2.new(0, 15, 0, 0)
 TextboxLabel.Text = text
 TextboxLabel.Size = UDim2.new(0, 145, 0, 31)
@@ -2047,7 +2047,7 @@ TextboxLabel.TextXAlignment = Enum.TextXAlignment.Left
 
 txtbtn.Name = "txtbtn"
 txtbtn.Parent = Textbox
-txtbtn.BackgroundColor3 = Color3.fromRGB(240, 10, 10)txtbtn.BackgroundTransparency = 1.000
+txtbtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)txtbtn.BackgroundTransparency = 1.000
 txtbtn.Position = UDim2.new(0, 1, 0, 1)
 txtbtn.Size = UDim2.new(0, 379, 0, 29)
 txtbtn.Font = Enum.Font.SourceSans
@@ -2152,7 +2152,7 @@ Labeld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Labeld.BackgroundTransparency = 1.000
 Labeld.Size = UDim2.new(0, 410, 0, 20)
 Labeld.Font = Enum.Font.SourceSansBold
-Labeld.TextColor3 = Color3.fromRGB(240, 10, 10)Labeld.TextSize = 15.000
+Labeld.TextColor3 = Color3.fromRGB(0, 0, 0)Labeld.TextSize = 15.000
 Labeld.Text = display or ""
 Labeld.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -2305,7 +2305,7 @@ if game.PlaceId == 2753915549 then
     elseif game.PlaceId == 7449423635 then
         World3 = true
     else
-    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://10709761889", {
+    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://10747830462", {
     Duration = 10,       
     Main = {
         Rounding = true,
@@ -4452,7 +4452,7 @@ local Visual = Library:AddTab("Visual","rbxassetid://10723374981")
 local R = Library:AddTab("Dungeon","rbxassetid://10709761722")
 local T = Library:AddTab("Teleport","rbxassetid://10734964188")
 local S = Library:AddTab("Shop","rbxassetid://10734952479")
-local D = Library:AddTab("Devil Fruit","rbxassetid://10709761889")
+local D = Library:AddTab("Devil Fruit","rbxassetid://10747830462")
 local Misc = Library:AddTab("Miscellaneous","rbxassetid://10709782582")
 --------------------------------------------------------------------------------------------------------
 Settings:AddSeperator("Settings Farming")
@@ -7048,7 +7048,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=10709761889",
+							Icon = "http://www.roblox.com/asset/?id=10747830462",
 							Duration = 2.5
 						})
 					end
@@ -7060,7 +7060,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=10709761889",
+							Icon = "http://www.roblox.com/asset/?id=10747830462",
 							Duration = 2.5
 						})
 					end
@@ -7072,7 +7072,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=10709761889",
+							Icon = "http://www.roblox.com/asset/?id=10747830462",
 							Duration = 2.5
 						})
 					end
@@ -7084,7 +7084,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=10709761889",
+							Icon = "http://www.roblox.com/asset/?id=10747830462",
 							Duration = 2.5
 						})
 					end
@@ -7094,7 +7094,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=10709761889",
+									Icon = "http://www.roblox.com/asset/?id=10747830462",
 									Duration = 2.5
 								})
 							else
@@ -7105,7 +7105,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=10709761889",
+							Icon = "http://www.roblox.com/asset/?id=10747830462",
 							Duration = 2.5
 						})
 					end
@@ -8847,7 +8847,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Apple Hab", 
 					Text = "Full Moon" ,
-					Icon = "http://www.roblox.com/asset/?id=10709761889",
+					Icon = "http://www.roblox.com/asset/?id=10747830462",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
@@ -8855,7 +8855,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Z-azure Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=10709761889",
+					Icon = "http://www.roblox.com/asset/?id=10747830462",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
@@ -8863,7 +8863,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Z-azure Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=10709761889",
+					Icon = "http://www.roblox.com/asset/?id=10747830462",
 					Duration = 2.5
 				})
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
@@ -8871,7 +8871,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
                 game.StarterGui:SetCore("SendNotification", {
 					Title = "Z-azure Hub", 
 					Text = "Wait New Server" ,
-					Icon = "http://www.roblox.com/asset/?id=10709761889",
+					Icon = "http://www.roblox.com/asset/?id=10747830462",
 					Duration = 2.5
 				})
             else
@@ -17355,14 +17355,14 @@ UIStroke.Color = Color3.fromRGB(0, 0, 0)
 UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 ----------------------------------------------------------------------------------------------------------------------------------------
-Notification.Notify("Notification", "Thank You for Using Z-azure Hub.", "rbxassetid://10709761889", {
+Notification.Notify("Notification", "Thank You for Using Z-azure Hub.", "rbxassetid://10747830462", {
     Duration = 5,       
     Main = {
         Rounding = true,
     }
     });
 wait(6)
-Notification.Notify("Notification", "If You Use Fluxus, Z-azure Hub Will Optimize Fluxus Well.", "rbxassetid://10709761889", {
+Notification.Notify("Notification", "If You Use Fluxus, Z-azure Hub Will Optimize Fluxus Well.", "rbxassetid://10747830462", {
     Duration = 10,       
     Main = {
         Rounding = true,
