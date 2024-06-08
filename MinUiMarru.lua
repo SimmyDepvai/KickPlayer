@@ -556,7 +556,7 @@ end
 	end
 	
 	
-	--Cloe ui
+	--Close ui
 	local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -570,7 +570,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=13717478897"
+ImageButton.Image = "http://www.roblox.com/asset/?id=17729980262"
 ImageButton.MouseButton1Down:connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.F1,false,game)
 end)
@@ -754,7 +754,7 @@ end)
 		Logo.Position = UDim2.new(0, 10, 0, 10)
 		Logo.Size = UDim2.new(0, 30, 0, 30)
 		Logo.ImageTransparency = 0
-		Logo.Image = "rbxassetid://13717478897"
+		Logo.Image = "rbxassetid://17729980262"
 	
 		Logo_Background.Name = "Logo"
 		Logo_Background.Parent = Main
@@ -765,7 +765,7 @@ end)
 		Logo_Background.Position = UDim2.new(0, 135, 0, 75)
 		Logo_Background.Size = UDim2.new(0, 305, 0, 305)
 		Logo_Background.ImageTransparency = 0.7
-		Logo_Background.Image = "rbxassetid://13717478897"
+		Logo_Background.Image = "rbxassetid://17729980262"
 		RunService.RenderStepped:Connect(function()
 			Logo_Background.Rotation = Logo_Background.Rotation + 1
 			if Logo_Background.Rotation >= 360 then
@@ -779,7 +779,7 @@ end)
 		Title.Position = UDim2.new(0, 45, 0, 10)
 		Title.Size = UDim2.new(0, 483, 0, 31)
 		Title.Font = Enum.Font.FredokaOne
-		Title.Text = "MinGaming"
+		Title.Text = "Z-azure Hub"
 		Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Title.TextSize = 17.000
 		Title.TextWrapped = true
@@ -1362,12 +1362,12 @@ end)
 	
 					Button_2.Name = Title
 					Button_2.Parent = SectionContainer
-					Button_2.BackgroundColor3 = Color3.fromRGB(33, 132, 112)
+					Button_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Button_2.Size = UDim2.new(0, 265, 0, 30)
 					Button_2.ZIndex = 16
 	
 					if default then
-						Button_2.BackgroundColor3 = Color3.fromRGB(33, 132, 112)
+						Button_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					else
 						Button_2.BackgroundColor3 = _G.Color
 					end
@@ -1413,7 +1413,7 @@ end)
 							Button_2,
 							TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{
-								BackgroundColor3 = state and _G.Color or Color3.fromRGB(33, 132, 112)
+								BackgroundColor3 = state and _G.Color or Color3.fromRGB(0, 0, 0)
 							}
 						):Play()
 						callback(default)
@@ -1424,7 +1424,7 @@ end)
 							Button_2,
 							TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{
-								BackgroundColor3 = state and Color3.fromRGB(33, 132, 112) or _G.Color
+								BackgroundColor3 = state and Color3.fromRGB(0, 0, 0) or _G.Color
 							}
 						):Play()
 						callback(state)
@@ -2813,16 +2813,16 @@ end)
 	
 	function LoadSettings()
 		if readfile and writefile and isfile and isfolder then
-			if not isfolder("Min Gaming") then
-				makefolder("Min Gaming")
+			if not isfolder("Z-azure Hub") then
+				makefolder("Z-azure Hub")
 			end
-			if not isfolder("Min Gaming/Blox Fruits/") then
-				makefolder("Min Gaming/Blox Fruits/")
+			if not isfolder("Z-azure Hub/Blox Fruits/") then
+				makefolder("Z-azure Hub/Blox Fruits/")
 			end
-			if not isfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
-				writefile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(_G.Settings))
+			if not isfile("Z-azure Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
+				writefile("Z-azure Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(_G.Settings))
 			else
-				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
+				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Z-azure Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
 				for i,v in pairs(Decode) do
 					_G.Settings[i] = v
 				end
@@ -2834,15 +2834,15 @@ end)
 	
 	function SaveSettings()
 		if readfile and writefile and isfile and isfolder then
-			if not isfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
+			if not isfile("Z-azure Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
 				LoadSettings()
 			else
-				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
+				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Z-azure Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
 				local Array = {}
 				for i,v in pairs(_G.Settings) do
 					Array[i] = v
 				end
-				writefile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(Array))
+				writefile("Z-azure Hub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(Array))
 			end
 		else
 			return warn("Status : Undetected Executor")
@@ -4050,7 +4050,7 @@ function GetMaterial(matname)
 		Side = "Left"
 	})
 	CredtSection:AddLabel({
-		Name = "Script Made By Min Gaming"
+		Name = "Script Made By Z-azure Hub"
 	})	
 
 	
@@ -9966,7 +9966,7 @@ end
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Notification", 
 								Text = "Not Have Superhuman" ,
-								Icon = "http://www.roblox.com/asset/?id=13717478897",
+								Icon = "http://www.roblox.com/asset/?id=17729980262",
 								Duration = 2.5
 							})
 						end
@@ -9978,7 +9978,7 @@ end
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Notification", 
 								Text = "Not Have Death Step" ,
-								Icon = "http://www.roblox.com/asset/?id=13717478897",
+								Icon = "http://www.roblox.com/asset/?id=17729980262",
 								Duration = 2.5
 							})
 						end
@@ -9990,7 +9990,7 @@ end
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Notification", 
 								Text = "Not Have SharkMan Karate" ,
-								Icon = "http://www.roblox.com/asset/?id=13717478897",
+								Icon = "http://www.roblox.com/asset/?id=17729980262",
 								Duration = 2.5
 							})
 						end
@@ -10002,7 +10002,7 @@ end
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Notification", 
 								Text = "Not Have Electric Claw" ,
-								Icon = "http://www.roblox.com/asset/?id=13717478897",
+								Icon = "http://www.roblox.com/asset/?id=17729980262",
 								Duration = 2.5
 							})
 						end
@@ -10012,7 +10012,7 @@ end
 									game.StarterGui:SetCore("SendNotification", {
 										Title = "Notification", 
 										Text = "Not Have Enough Material" ,
-										Icon = "http://www.roblox.com/asset/?id=13717478897",
+										Icon = "http://www.roblox.com/asset/?id=17729980262",
 										Duration = 2.5
 									})
 								else
@@ -10023,7 +10023,7 @@ end
 							game.StarterGui:SetCore("SendNotification", {
 								Title = "Notification", 
 								Text = "Not Have Dragon Talon" ,
-								Icon = "http://www.roblox.com/asset/?id=13717478897",
+								Icon = "http://www.roblox.com/asset/?id=17729980262",
 								Duration = 2.5
 							})
 						end
@@ -11133,9 +11133,9 @@ spawn(function()
 						toTarget(workspace.Map.MysticIsland.PrimaryPart.CFrame * CFrame.new(0, 300, 0))
 				else
 					if _G.Mode == "English" then
-						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "Mirage not Found!",Icon = "rbxassetid://13717478897",Duration = 1})
+						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "Mirage not Found!",Icon = "rbxassetid://17729980262",Duration = 1})
 					else
-						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "เกาะลับยังไม่เกิด",Icon = "rbxassetid://13717478897",Duration = 1})
+						game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "เกาะลับยังไม่เกิด",Icon = "rbxassetid://17729980262",Duration = 1})
 					end
 				end
 			end
@@ -12695,8 +12695,8 @@ MiscSection1:AddButton({
 		kaituncap()
 	end
 })
-FakeDamage("Min_Gaming_On_Top")
-Vec("<Color=Yellow>Min Gaming loaded Finished<Color=/>")
+FakeDamage("Cặc Cặc")
+Vec("<Color=Yellow>Z-azure Hub loaded Finished<Color=/>")
 else
 	game.Players.LocalPlayer:Kick("..")
 end
