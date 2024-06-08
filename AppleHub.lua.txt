@@ -1412,7 +1412,7 @@ Title.TextXAlignment = Enum.TextXAlignment.Left
                 
                 SliderButton.Name = "SliderButton"
                 SliderButton.Parent = SliderInput
-                SliderButton.BackgroundColor3 = Color3.fromRGB(46, 56, 56)              SliderButton.BackgroundTransparency = 1.000
+                SliderButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)              SliderButton.BackgroundTransparency = 1.000
                 SliderButton.BorderSizePixel = 0
                 SliderButton.Position = UDim2.new(0, 0, 0, -7)
                 SliderButton.Size = UDim2.new(0, 300, 0, 25)
